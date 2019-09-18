@@ -237,7 +237,7 @@
     "size": "./div[1]/div[2]",
     "url": "https://www.soucili.top",
     "paths": {
-      "preset": "/search.html?keywords=%s&page=0"
-    }//*[@id="search_items_div"]/div[1]/div[1]/div[1]
+      "preset": "/search.html?keywords=%s"
+    }
   }
 ]
