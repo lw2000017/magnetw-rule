@@ -229,37 +229,6 @@
     }
   },
   {
-    "site": "卧槽搜搜",
-    "group": "//td[@class='x-item']",
-    "magnet": "./h3/a/@href",
-    "name": "./h3/a",
-    "size": "./span[4]/b",
-    "date": "./span[2]/b",
-    "hot": "./span[3]/b",
-    "url": "http://www.wcs777.com",
-    "paths": {
-      "time": "/s/%s-first-asc-%d",
-      "size": "/s/%s-size-desc-%d",
-      "hot": "/s/%s-hot-desc-%d"
-    },
-    "detail": {
-      "files": "//div[@class=\"dd filelist\"]"
-    }
-  },
-  {
-    "site": "MAG磁力站",
-    "proxy": false,
-    "group": "//ul[@class='link-list']",
-    "magnet": "./li/@data-magnet",
-    "name": "./li/span[1]",
-    "size": "./li/span[2]/span[1]",
-    "date": "./li/span[2]/span[2]",
-    "url": "http://oabt005.com",
-    "paths": {
-      "preset": "/index/index/k/%s/p/%d"
-    }
-  },
-  {
     "site": "搜磁力",
     "proxy": false,
     "group": "//*[@id='search_items_div']/div",
@@ -268,7 +237,7 @@
     "size": "./div[1]/div[2]",
     "url": "https://www.soucili.top",
     "paths": {
-      "preset": "/search.html?keywords=%s&page=%d"
-    }
+      "preset": "/search.html?keywords=%s&page=0"
+    }//*[@id="search_items_div"]/div[1]/div[1]/div[1]
   }
 ]
