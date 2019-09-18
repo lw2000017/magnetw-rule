@@ -269,6 +269,6 @@
     "url": "https://www.soucili.top",
     "paths": {
       "preset": "/search.html?keywords=%s&page=%d"
-    },
+    }
   }
 ]
