@@ -248,7 +248,7 @@
     "magnet": "./li/div/a/@href",
     "size": "./li/div/span[1]",
     "date": "./li/div/span[3]",
-    "url": "https://btdb.eu/?search=",
+    "url": "https://btdb.eu/?search=miaa",
     "paths": {
       "preset": "/?search=%s&page=%d",
       "size": "/?search=%s&sort=length%page=%d",
