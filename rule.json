@@ -239,5 +239,20 @@
     "paths": {
       "preset": "/search.html?keywords=%s"
     }
+  },
+  {
+    "site": "BTDB",
+    "proxy": false,
+    "group": "//*[@id='results']/ul",
+    "name": "./li/h2/a/@title",
+    "magnet": "./li/div/a/@href",
+    "size": "./li/div/span[1]",
+    "date": "./li/div/span[3]",
+    "url": "https://btdb.eu",
+    "paths": {
+      "preset": "/?search=%s&page=%d",
+      "size": "/?search=%s&sort=length%page=%d",
+      "time": "/?search=%s&sort=time%page=%d"
+    }
   }
 ]
